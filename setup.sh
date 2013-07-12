@@ -41,3 +41,5 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# git cashes credentials not to log in every time
+git config --global credential.helper cache
