@@ -46,3 +46,6 @@ ln -sf dotfiles/.emacs.d .
 
 # git cashes credentials not to log in every time
 git config --global credential.helper cache
+
+# install heroku toolbelt
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
